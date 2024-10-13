@@ -30,7 +30,7 @@ module.exports = {
     ADM: process.env.ANTI_DELETE || 'on',
     TZ: process.env.TIME_ZONE || 'Africa/Nairobi',
     DP: process.env.STARTING_MESSAGE || "on",
-    ANTICALL: process.env.ANTICALL || 'on',
+    ANTICALL: process.env.ANTICALL || 'off',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
         ? "postgresql://giftedtech_ke:9BzoUeUQO2owLEsMjz5Vhshva91bxF2X@dpg-crice468ii6s73f1nkt0-a.oregon-postgres.render.com/api_gifted_tech"
